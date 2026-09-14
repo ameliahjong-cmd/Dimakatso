@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skincare Systems - Farmasi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">FARMASI</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skincare.html" class="active">Skincare</a></li>
+        <li><a href="wellness.html">Wellness & Fitness</a></li>
+        <li><a href="makeup.html">Makeup & Fragrance</a></li>
+        <li><a href="cart.html" class="cart-icon-btn">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1 class="page-title">Dr. C. Tuna Skincare Systems</h1>
+    <div class="product-grid">
+      
+      <div class="product-card">
+        <img src="image_8.png" alt="Calendula Face Wash" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Calendula Face Wash</div>
+            <div class="product-desc">Gentle cleanser specially formulated for dry & sensitive skin. 100ml</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$19.00</span>
+            <button class="btn" onclick="addToCart('Calendula Face Wash', 19.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_8.png" alt="Calendula Face Toner" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Calendula Face Toner</div>
+            <div class="product-desc">Calming face toner developed to remove impurities. 125ml</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$19.00</span>
+            <button class="btn" onclick="addToCart('Calendula Face Toner', 19.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_8.png" alt="Calendula Oil" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Calendula Oil</div>
+            <div class="product-desc">Rich oil that nourishes the skin and leaves it soft and silky. 30ml</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$40.00</span>
+            <button class="btn" onclick="addToCart('Calendula Oil', 40.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_8.png" alt="Calendula Face Cream" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Calendula Face Cream</div>
+            <div class="product-desc">Fast-absorbing rich moisturizer providing full hydration. 1.7 fl. oz</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$24.00</span>
+            <button class="btn" onclick="addToCart('Calendula Face Cream', 24.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_12.png" alt="Age Reversist Exfoliating Cleanser" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Age Reversist Exfoliating Cleanser</div>
+            <div class="product-desc">Gently exfoliates, softens and refines skin. 3.4 fl. oz</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$45.00</span>
+            <button class="btn" onclick="addToCart('Age Reversist Exfoliating Cleanser', 45.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_12.png" alt="Age Reversist Beauty Essence Tonic" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Age Reversist Beauty Essence Tonic</div>
+            <div class="product-desc">Energizes and prepares skin for treatments. 3.4 fl. oz</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$45.00</span>
+            <button class="btn" onclick="addToCart('Age Reversist Beauty Essence Tonic', 45.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_12.png" alt="Resurface Refining Cleanser" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Resurface Refining Cleanser</div>
+            <div class="product-desc">Helps refine skin surface for a smoother, more radiant look. 3.4 fl. oz</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$50.00</span>
+            <button class="btn" onclick="addToCart('Resurface Refining Cleanser', 50.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Farmasi Independent Influencer | Order via WhatsApp: +267 74525158</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
