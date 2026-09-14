@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wellness & Fitness - Farmasi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">FARMASI</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="skincare.html">Skincare</a></li>
+        <li><a href="wellness.html" class="active">Wellness & Fitness</a></li>
+        <li><a href="makeup.html">Makeup & Fragrance</a></li>
+        <li><a href="cart.html" class="cart-icon-btn">🛒 Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1 class="page-title">Nutriplus Wellness, Vitamins & Fitness</h1>
+    <div class="product-grid">
+      
+      <div class="product-card">
+        <img src="image_3.png" alt="Nutriplus Vitamin B12" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Nutriplus Vitamin B12 Spray</div>
+            <div class="product-desc">Vitamin & supplement support to help fight deficiency.</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$35.00</span>
+            <button class="btn" onclick="addToCart('Nutriplus Vitamin B12', 35.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_3.png" alt="Nutriplus Vitamin D3" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Nutriplus Vitamin D3 Spray</div>
+            <div class="product-desc">Supports strong bones and overall wellness.</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$35.00</span>
+            <button class="btn" onclick="addToCart('Nutriplus Vitamin D3', 35.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_3.png" alt="Beauty Collagen" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Nutriplus Beauty Collagen</div>
+            <div class="product-desc">Supports natural collagen production for glowing skin.</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$30.00</span>
+            <button class="btn" onclick="addToCart('Nutriplus Beauty Collagen', 30.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_3.png" alt="Calcium Magnesium" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Calcium Magnesium</div>
+            <div class="product-desc">Two essential minerals working together for bone health.</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$25.50</span>
+            <button class="btn" onclick="addToCart('Calcium Magnesium', 25.50)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_11.png" alt="Nutriplus Creatine" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Nutriplus Creatine (Unflavored)</div>
+            <div class="product-desc">5g Pure Creatine Monohydrate + Vitamin B6 for strength and recovery. 5.5 oz</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$40.00</span>
+            <button class="btn" onclick="addToCart('Nutriplus Creatine', 40.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_11.png" alt="Nutriplus Pre-Workout" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Nutriplus Pre-Workout (Tropical Mix)</div>
+            <div class="product-desc">Clean energy, sharp focus, peak performance formula. 200g</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$42.00</span>
+            <button class="btn" onclick="addToCart('Nutriplus Pre-Workout', 42.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_13.png" alt="Nutriplus Green + Berry" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Nutriplus Green + Berry</div>
+            <div class="product-desc">Aids detoxification and helps keep you energized. 150g</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$40.00</span>
+            <button class="btn" onclick="addToCart('Nutriplus Green + Berry', 40.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="image_13.png" alt="Nutriplus Cyclical Relief" class="product-img">
+        <div class="product-info">
+          <div>
+            <div class="product-title">Nutriplus Cyclical Relief</div>
+            <div class="product-desc">Formulated for women's wellness and monthly comfort support.</div>
+          </div>
+          <div class="product-footer">
+            <span class="product-price">$40.00</span>
+            <button class="btn" onclick="addToCart('Nutriplus Cyclical Relief', 40.00)">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Farmasi Independent Influencer | Order via WhatsApp: +267 74525158</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
